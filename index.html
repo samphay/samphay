@@ -11,6 +11,14 @@
 		<title>商品</title>
 		<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
 		<style type="text/css">
+			.bg {
+			    background-image: -moz-linear-gradient( 90deg, rgb(70,117,177) 0%, rgb(78,74,101) 100%);
+			    background-image: -webkit-linear-gradient( bottom, rgb(70,117,177), rgb(78,74,101));
+			    background-image: -ms-linear-gradient( 90deg, rgb(70,117,177) 0%, rgb(78,74,101) 100%);
+			    background-size: cover;
+			    width: 100%;
+			    height: 667px;
+			}
 			.myul{
 				    display: flex;
 				    display: -webkit-box;
@@ -46,7 +54,7 @@
 
 		</style>
     </head>
-    <body>
+    <body class="bg">
 		<div class="sliderBox">
 				<div class="sliderWrap myul">
 					<div class="slider containBg">0</div>
